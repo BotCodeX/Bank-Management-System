@@ -1,0 +1,6 @@
+create database bank;
+use bank;
+create table login(userid varchar(20)not null,passwd varchar(20)not null);
+insert into login values('admin','12345');
+create table accdetails(name varchar(20),dob varchar(10),address varchar(50),accnumber varchar(18),ifsc varchar(6),cif varchar(4),phoneno varchar(13));
+
